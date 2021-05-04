@@ -1,6 +1,6 @@
 // In order for this demo to work, duration must be included for each playlist item.
 const playerInstance = jwplayer('player').setup({
-  'playlist': 'https://cdn.jwplayer.com/feeds/DrqpQIzP.rss'
+  'playlist': 'http://176.221.147.226:8085/udp/237.7.7.153:17153'
 });
 
 playerInstance.on('displayClick', playerInstance.pause);
